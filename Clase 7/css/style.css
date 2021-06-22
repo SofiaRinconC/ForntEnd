@@ -1,0 +1,39 @@
+header {
+    background-color: #E5E5E5;
+    text-align: center;
+    color: #005677;
+}
+
+.Imagen {
+    width: 100px;
+    height: 147px;
+    left: 670px;
+    top: 21px;
+}
+
+.FondoGris {
+    background-color: #C4C4C4;
+}
+
+.negrita {
+    font-weight: bold;
+    font-style: italic;
+}
+.negro{
+    font-weight: bold;
+}
+.Fondo {
+    background-color: #C4C4C4;
+    color:#005677;
+    ;
+}
+footer{
+    background-color: #005677;
+    width: 1440px;
+    height: 37px;
+    left: 0px;
+    top: 987px;
+    color: #FFFFFF;
+    text-align: center;
+
+}

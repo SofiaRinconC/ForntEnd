@@ -1,0 +1,57 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.descuentos{
+    background-color: #1CD1B0;
+}
+.heroes{
+    background-color: #00669F;
+    margin: auto;
+    padding: 2px;
+
+}
+.card{
+    position: relative;
+    width: 300px;
+    left: 32px;
+    background: #F3F3F3;
+    border-radius:  10%;
+    display: inline-block;
+    margin-top: 170px;
+    margin-bottom: 170px;
+    margin-left: 100px;
+}
+
+.corazon{
+    color: red;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.redondo{
+    border-radius:100%;
+    display: block;
+    margin: auto;
+    margin-top: -50px;
+}
+.caja{
+    background-color: #00669F;
+    position: relative;
+    width: 128.78px;
+    height: 48.52px;
+    left: 100px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+footer{
+    background-color: #00669F;
+    padding: 12px;
+    color: white;
+}

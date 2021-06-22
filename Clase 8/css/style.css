@@ -1,0 +1,22 @@
+body{font-family: 'Times New Roman', Times, serif;}
+header{
+    background-image: url("../img/Fondo.jpg");
+    text-align: center;
+    color: blanchedalmond;
+}
+.Imagen{
+    width: 200px; 
+    height: 250px;
+    background-position: center;
+}
+.Fondo {
+    background-color: black;
+    color:blanchedalmond;
+    text-align: center;
+}
+.cursiva{
+    font-style: italic
+}
+.negrita{
+    font-weight: bold;
+}
