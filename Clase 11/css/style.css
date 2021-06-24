@@ -1,0 +1,38 @@
+header{
+    background-color: black;
+}
+footer{
+    background-color: black;
+}
+.letra{
+    color: #F3F3F3;
+}
+h2{
+    color:#FC200C;
+}
+.container{
+    font-family:'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.Hijo1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo{
+    position: absolute;
+width: 234px;
+height: 80px;
+left: 20px;
+top: 10px;
+}
+.logo1{
+    position: absolute;
+width: 212px;
+height: 80px;
+left: 770px;
+top: 555px;
+}
