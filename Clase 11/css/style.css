@@ -1,38 +1,90 @@
+body{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
 header{
-    background-color: black;
+    background-color:#222222;
+}
+main{
+    display: flex;
+    margin: auto;
 }
 footer{
-    background-color: black;
+    background-color:#222222;
 }
-.letra{
+.iconos{
     color: #F3F3F3;
+    position: relative;
+    right: 25px;
+    top: 40px;
+}
+.iconosF{
+    color: #F3F3F3;
+    position: relative;
+    left: 20px;
+    padding: 20px 20px;
+}
+.blanco{
+    color: white;
+}
+.margen{
+    margin-top: 10px;
+}
+.negrita{
+    font-weight:bold;
+}
+.centrar{
+    text-align: center;
+}
+.logo{
+    padding: 30px 30px;
 }
 h2{
     color:#FC200C;
 }
+h3{
+    padding-left: 40px;
+}
 .container{
     font-family:'Roboto', sans-serif;
-    display: flex;
+    display:flex;
     flex-direction: column;
+    position: relative;
 }
-.Hijo1{
+.encabezado{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
 }
-
-.logo{
-    position: absolute;
-width: 234px;
-height: 80px;
-left: 20px;
-top: 10px;
+.final{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
 }
-.logo1{
+.card{
+    height: 350px;
+    width: 490px;
+    background: #F3F3F3;
+    margin: 20px 10px;
+}
+.card1{
+    display: flex;
+    
+}
+.tituloimg1{
     position: absolute;
-width: 212px;
-height: 80px;
-left: 770px;
-top: 555px;
+}
+.card2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img2{
+    position: relative;
+    top: 45px;
+    width: 92px;
+    height: 129px;
 }
