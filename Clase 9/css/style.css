@@ -1,0 +1,62 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+footer{
+    color: #FFFFFF;
+}
+.negro{
+    background-color:#222222;
+    color:#F3F3F3;
+}
+.amarillo{
+    background-color: #F0A83E;
+    color: #F3F3F3;
+}
+.blanco{
+    background-color: #FFFFFF;
+}
+.marron{
+    color: #3C2313;
+}
+.letra{
+    color: #F0A83E;
+}
+.cafe{
+    background-color: #3C2313;
+    color: #FFFFFF;
+}
+.gris{
+    background-color: #8A8787;
+}
+.amarillos{
+    background-color: #F0A83E;
+}
+.blancos{
+    background-color: #FFFFFF;
+}
+.cafes{
+    background-color: #3C2313;
+}
+.iconos{
+    font-size: 50px;
+}
+.PiePagina{
+    background-color: #3C2313;
+}
+.card{
+    height: 350px;
+    width: 490px;
+    background: #F3F3F3;
+    margin: 20px 10px;
+    display: flex;
+}
+.encabezado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
