@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+/*Estilos Header*/
+.header1{
+    background-color: #1CD1B0;
+    text-align: left;
+    padding-left: 10px;
+    background-size: cover;
+    font-weight: bold;
+}
+.header2{
+    background-color: #00669F;
+    position: relative;
+    background-size: cover;
+}
+.titulo{
+    color:#FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 129;
+    top: 25px;
+}
+
+/*Estilos Footer*/
+footer{
+    background-color:#00669F;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    top: 400px;
+    padding: 25px;
+}
+.footer1{
+    color: #FFFFFF;
+    text-align: center;
+}

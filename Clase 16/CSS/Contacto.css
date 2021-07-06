@@ -1,0 +1,45 @@
+/*Estilo main*/
+main{
+    position: relative;
+    top: 200px;
+    left: 400px;
+    padding: 1px 2px 10px 30px;
+    
+}
+.tituloContacto{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 120px;
+}
+.cajasContacto{
+    margin: 1px 5px 8px 5px;
+    background-color: #fff;
+    height: 40px;
+    width: 500px;
+    border: black 1px solid;
+}
+.cajasContacto1{
+    margin: 1px 5px 8px 5px;
+    background-color: #fff;
+    height: 250px;
+    width: 500px;
+    border: black 1px solid;
+}
+.entrarContacto{
+    margin: 35px 5px 8px 5px;
+    background-color:#1CD1B0;
+    border-radius: 10px;
+    border:#1CD1B0 1px ;
+    height: 40px;
+    width: 245px;
+}
+.resetearContacto{
+    margin: 35px 5px 8px 5px;
+    background-color:#888888;
+    color: #fff;
+    border-radius: 10px;
+    border: #888 1px ;
+    height: 40px;
+    width: 245px;
+}

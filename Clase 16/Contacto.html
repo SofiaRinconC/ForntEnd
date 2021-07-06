@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="CSS/General.css">
+    <link rel="stylesheet" href="CSS/Contacto.css">
+
+</head>
+<body>
+    <header>
+        <section class="header1">
+            <p>20% de descuento en todos los productos!</p>
+        </section>
+        <section class="header2">
+            <img src="img/Logo.png" alt="Logo">
+            <span class="titulo">Nombre de Tienda</span>
+        </section>
+    </header>
+    <main>
+        <section>
+            <section >
+                <p class="tituloContacto">Contacto</p>
+            </section>
+            <form action="Contacto" method="GET">
+                <div class="cajasContacto">
+                    <label for="Nombre" ></label>
+                    <input type="text" name="Nombre" id="Nombre" placeholder="Nombre y Apellido" required>
+                </div>
+                <div class="cajasContacto">
+                    <label for="email" ></label>
+                    <input type="email" name="email" id="email" placeholder="Correo electrónico" required>
+                </div>
+                <div class="cajasContacto1">
+                    <label for="comentarios" ></label>
+                    <input type="textarea" name="comentarios" id="comentarios" sentences minlength="15" maxlength="500" rows="10" cols="100" required>
+                </div>
+            </form>
+            <section>
+                <div>
+                    <button type="reset" class="resetearContacto"> Resetear</button>
+                    <button type="submit" class="entrarContacto">Entrar</button>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <section>
+            <p class="footer1">Todos los derechos reservados a FRONT END 1</p>
+        </section>
+
+    </footer>
+</body>
+</html>

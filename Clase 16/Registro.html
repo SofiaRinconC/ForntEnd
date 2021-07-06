@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="CSS/General.css">
+    <link rel="stylesheet" href="CSS/Registro.css">
+
+</head>
+<body>
+    <header>
+        <section class="header1">
+            <p>20% de descuento en todos los productos!</p>
+        </section>
+        <section class="header2">
+            <img src="img/Logo.png" alt="Logo">
+            <span class="titulo">Nombre de Tienda</span>
+        </section>
+    </header>
+    <main>
+        <section >
+            <p class="tituloRegistro">Registro</p>
+        </section>
+        <section>
+            <form action="Registro" method="GET">
+                <div class="cajasRegistro">
+                    <label for="Nombre" ></label>
+                    <input type="text" name="Nombre" id="Nombre" placeholder="Nombre y Apellido" required>
+                </div>
+                <div class="cajasRegistro">
+                    <label for="email" ></label>
+                    <input type="email" name="email" id="email" placeholder="Correo electrónico" required>
+                </div>
+                <div class="cajasRegistro">
+                    <label for="password" ></label>
+                    <input type="password" name="password" id="password" placeholder="Contraseña" required>
+                </div>
+                <select class="paises" >
+                    <label for="paises"></label>
+                    <datalist placeholder="País" name="Latinoamerica" id="paises"></datalist>
+                        <option name="Latinoamerica">País</option>
+                        <option name="Latinoamerica"  value="ARG">Argentina</option>
+                        <option name="Latinoamerica" value="BOL">Bolivia</option>
+                        <option name="Latinoamerica"  value="BRA">Brasil</option>
+                        <option name="Latinoamerica" value="CHI">Chile</option>
+                        <option name="Latinoamerica" value="COL">Colombia</option>
+                        <option name="Latinoamerica"value="CR">Costa Rica</option>
+                        <option name="Latinoamerica" value="CU">Cuba</option>
+                        <option name="Latinoamerica" value="ECU">Ecuador</option>
+                        <option name="Latinoamerica"value="SAL">El Salvador</option>
+                        <option name="Latinoamerica" value="GUA">Guatemala</option>
+                        <option name="Latinoamerica" value="HAI">Haíti</option>
+                        <option name="Latinoamerica" value="HON">Honduras</option>
+                        <option name="Latinoamerica" value="MEX">México</option>
+                        <option name="Latinoamerica" value="NIC">Nicaragua</option>
+                        <option name="Latinoamerica" value="PAN">Panamá</option>
+                        <option name="Latinoamerica" value="PAR">Paraguay</option>
+                        <option name="Latinoamerica" value="PER">Perú</option>
+                        <option name="Latinoamerica" value="RD">República Dominicana</option>
+                        <option name="Latinoamerica" value="URU">Uruguay</option>
+                        <option name="Latinoamerica" value="VEN">Venezuela</option>
+                    </datalist>
+                </select>
+            </form>
+        </section>
+        <section>
+            <div>
+                <button type="reset" class="resetear"> Resetear</button>
+                <button type="submit" class="registrar"> Registrar</button>
+            </div>
+            <span class="ingresar" >
+                <a href="Login.html">¿Ya tenés una cuenta?</a>
+                <span>Ingresá</span>
+            </span>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p class="footer1">Todos los derechos reservados a FRONT END 1</p>
+        </section>
+
+    </footer>
+</body>
+</html>
