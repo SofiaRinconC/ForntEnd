@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
-    font-family: 'Roboto', sans-serif;
 }
 /*Estilos Header*/
 .header1{
@@ -12,11 +10,13 @@
     padding-left: 10px;
     background-size: cover;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 .header2{
     background-color: #00669F;
     position: relative;
     background-size: cover;
+    
 }
 .titulo{
     color:#FFFFFF;
@@ -25,6 +25,7 @@
     position: absolute;
     left: 129;
     top: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*Estilos Footer*/
@@ -35,8 +36,10 @@ footer{
     position: relative;
     top: 400px;
     padding: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 .footer1{
     color: #FFFFFF;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
